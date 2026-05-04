@@ -1,15 +1,12 @@
 import SwiftUI
 
-@main
-struct MainApp: App {
+struct MainApp: View {
     @UIApplicationDelegateAdaptor(NotificationAppDelegate.self) var appDelegate
     @StateObject private var store = GardenStore()
 
-    var body: some Scene {
-        WindowGroup {
-            AppRootView()
-                .environmentObject(store)
-                .buttonStyle(ClickSoundButtonStyle())
-        }
+    var body: some View {
+        AppRootView()
+            .environmentObject(store)
+            .buttonStyle(ClickSoundButtonStyle())
     }
 }

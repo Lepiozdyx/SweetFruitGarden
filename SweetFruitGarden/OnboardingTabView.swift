@@ -61,7 +61,7 @@ struct OnboardingTabView: View {
 
                 overlayControls
                     .padding(.horizontal, 24)
-                    .padding(.bottom, geo.size.height <= 700 ? 18 : 32)
+//                    .padding(.bottom, geo.size.height <= 700 ? 18 : 32)
 
                 topSkipBar
                     .padding(.top, geo.safeAreaInsets.top + 2)
