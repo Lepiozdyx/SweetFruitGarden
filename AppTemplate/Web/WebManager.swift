@@ -2,6 +2,7 @@ import Foundation
 import UIKit
 
 public class WebManager {
+    
     static let initialURL = "https://sweetfruitgard.pro/profile"
     static let savedUrlKey = "savedUrl"
     static var provenUrl : URL?
@@ -29,27 +30,6 @@ public class WebManager {
         }
     }
     
-    static func checkUrl(url: URL) async -> Bool {
-        do {
-            var request = URLRequest(url: url)
-            request.setValue(getUAgent(forWebView: false), forHTTPHeaderField: "User-Agent")
-            
-            let (_, response) = try await URLSession.shared.data(for: request)
-            
-            guard let httpResponse = response as? HTTPURLResponse else {
-                return false
-            }
-            
-            if (400...599).contains(httpResponse.statusCode){
-                return false
-            }
-            
-            return true
-        } catch {
-            return false
-        }
-    }
-    
     static func checkInitURL(url: URL) async throws -> URL? {
         var request = URLRequest(url: url)
         request.setValue(getUAgent(forWebView: false), forHTTPHeaderField: "User-Agent")
@@ -71,7 +51,8 @@ public class WebManager {
         return finalURL
     }
     
-    static func getSavedUrl() -> String {
+    static func getSavedUrl() -> String
+    {
         let storage = UserDefaults.standard
         if let urlString = storage.string(forKey: savedUrlKey) {
                 if let url = URL(string: urlString) {

@@ -7,35 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE5F035A2E90173A004E65F1 /* AppsFlyerLib-Static in Frameworks */ = {isa = PBXBuildFile; productRef = CE5F03592E90173A004E65F1 /* AppsFlyerLib-Static */; };
 		CE7115A62E6F181600BFCB5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7115A52E6F181600BFCB5A /* LaunchScreen.storyboard */; };
-		FA1737472FA910CC00581EB4 /* NotificationAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA17373C2FA910CC00581EB4 /* NotificationAppDelegate.swift */; };
-		FA1737482FA910CC00581EB4 /* MainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1737372FA910CC00581EB4 /* MainApp.swift */; };
-		FA1737492FA910CC00581EB4 /* PlantPickDateScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1737452FA910CC00581EB4 /* PlantPickDateScreen.swift */; };
-		FA17374A2FA910CC00581EB4 /* ClickSoundButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA17372F2FA910CC00581EB4 /* ClickSoundButtonStyle.swift */; };
-		FA17374B2FA910CC00581EB4 /* GardenModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1737352FA910CC00581EB4 /* GardenModels.swift */; };
-		FA17374C2FA910CC00581EB4 /* OnboardingTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA17373E2FA910CC00581EB4 /* OnboardingTabView.swift */; };
-		FA17374D2FA910CC00581EB4 /* AppRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA17372B2FA910CC00581EB4 /* AppRootView.swift */; };
-		FA17374E2FA910CC00581EB4 /* GardenStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1737362FA910CC00581EB4 /* GardenStore.swift */; };
-		FA17374F2FA910CC00581EB4 /* ClickSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA17372E2FA910CC00581EB4 /* ClickSound.swift */; };
-		FA1737502FA910CC00581EB4 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1737302FA910CC00581EB4 /* Color+Hex.swift */; };
-		FA1737512FA910CC00581EB4 /* PlantLibraryRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1737432FA910CC00581EB4 /* PlantLibraryRootView.swift */; };
-		FA1737522FA910CC00581EB4 /* GardenCalendarDateScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1737312FA910CC00581EB4 /* GardenCalendarDateScreen.swift */; };
-		FA1737532FA910CC00581EB4 /* PlantDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1737422FA910CC00581EB4 /* PlantDetailScreen.swift */; };
-		FA1737542FA910CC00581EB4 /* GardenCalendarNoEventsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1737322FA910CC00581EB4 /* GardenCalendarNoEventsScreen.swift */; };
-		FA1737552FA910CC00581EB4 /* NativeTextInputs.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1737382FA910CC00581EB4 /* NativeTextInputs.swift */; };
-		FA1737562FA910CC00581EB4 /* NewPlantScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA17373B2FA910CC00581EB4 /* NewPlantScreen.swift */; };
-		FA1737572FA910CC00581EB4 /* PlantDetailRemoveScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1737412FA910CC00581EB4 /* PlantDetailRemoveScreen.swift */; };
-		FA1737582FA910CC00581EB4 /* NewPlantSavedScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA17373A2FA910CC00581EB4 /* NewPlantSavedScreen.swift */; };
-		FA1737592FA910CC00581EB4 /* PlantLibraryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1737442FA910CC00581EB4 /* PlantLibraryScreen.swift */; };
-		FA17375A2FA910CC00581EB4 /* PlantAddScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA17373F2FA910CC00581EB4 /* PlantAddScreen.swift */; };
-		FA17375B2FA910CC00581EB4 /* GardenCalendarScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1737332FA910CC00581EB4 /* GardenCalendarScreen.swift */; };
-		FA17375C2FA910CC00581EB4 /* GardenMapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1737342FA910CC00581EB4 /* GardenMapScreen.swift */; };
-		FA17375D2FA910CC00581EB4 /* PlantDetailPlusScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1737402FA910CC00581EB4 /* PlantDetailPlusScreen.swift */; };
-		FA17375E2FA910CC00581EB4 /* NewPlantErrorScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1737392FA910CC00581EB4 /* NewPlantErrorScreen.swift */; };
-		FA17375F2FA910CC00581EB4 /* NotificationsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA17373D2FA910CC00581EB4 /* NotificationsScreen.swift */; };
-		FA1737602FA910CC00581EB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA17372C2FA910CC00581EB4 /* Assets.xcassets */; };
-		FA1737612FA910CC00581EB4 /* click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA17372D2FA910CC00581EB4 /* click.mp3 */; };
-		FA1737622FA910CC00581EB4 /* FredokaOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA1737292FA910CC00581EB4 /* FredokaOne-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,40 +28,17 @@
 		CE7115342E6F0AB000BFCB5A /* AppTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7115A42E6F181600BFCB5A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEF3187B2E72A659004E27D7 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
-		FA1737292FA910CC00581EB4 /* FredokaOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FredokaOne-Regular.ttf"; sourceTree = "<group>"; };
-		FA17372B2FA910CC00581EB4 /* AppRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRootView.swift; sourceTree = "<group>"; };
-		FA17372C2FA910CC00581EB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FA17372D2FA910CC00581EB4 /* click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click.mp3; sourceTree = "<group>"; };
-		FA17372E2FA910CC00581EB4 /* ClickSound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickSound.swift; sourceTree = "<group>"; };
-		FA17372F2FA910CC00581EB4 /* ClickSoundButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickSoundButtonStyle.swift; sourceTree = "<group>"; };
-		FA1737302FA910CC00581EB4 /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
-		FA1737312FA910CC00581EB4 /* GardenCalendarDateScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenCalendarDateScreen.swift; sourceTree = "<group>"; };
-		FA1737322FA910CC00581EB4 /* GardenCalendarNoEventsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenCalendarNoEventsScreen.swift; sourceTree = "<group>"; };
-		FA1737332FA910CC00581EB4 /* GardenCalendarScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenCalendarScreen.swift; sourceTree = "<group>"; };
-		FA1737342FA910CC00581EB4 /* GardenMapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenMapScreen.swift; sourceTree = "<group>"; };
-		FA1737352FA910CC00581EB4 /* GardenModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenModels.swift; sourceTree = "<group>"; };
-		FA1737362FA910CC00581EB4 /* GardenStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenStore.swift; sourceTree = "<group>"; };
-		FA1737372FA910CC00581EB4 /* MainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainApp.swift; sourceTree = "<group>"; };
-		FA1737382FA910CC00581EB4 /* NativeTextInputs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeTextInputs.swift; sourceTree = "<group>"; };
-		FA1737392FA910CC00581EB4 /* NewPlantErrorScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPlantErrorScreen.swift; sourceTree = "<group>"; };
-		FA17373A2FA910CC00581EB4 /* NewPlantSavedScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPlantSavedScreen.swift; sourceTree = "<group>"; };
-		FA17373B2FA910CC00581EB4 /* NewPlantScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPlantScreen.swift; sourceTree = "<group>"; };
-		FA17373C2FA910CC00581EB4 /* NotificationAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationAppDelegate.swift; sourceTree = "<group>"; };
-		FA17373D2FA910CC00581EB4 /* NotificationsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsScreen.swift; sourceTree = "<group>"; };
-		FA17373E2FA910CC00581EB4 /* OnboardingTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingTabView.swift; sourceTree = "<group>"; };
-		FA17373F2FA910CC00581EB4 /* PlantAddScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantAddScreen.swift; sourceTree = "<group>"; };
-		FA1737402FA910CC00581EB4 /* PlantDetailPlusScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDetailPlusScreen.swift; sourceTree = "<group>"; };
-		FA1737412FA910CC00581EB4 /* PlantDetailRemoveScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDetailRemoveScreen.swift; sourceTree = "<group>"; };
-		FA1737422FA910CC00581EB4 /* PlantDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDetailScreen.swift; sourceTree = "<group>"; };
-		FA1737432FA910CC00581EB4 /* PlantLibraryRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantLibraryRootView.swift; sourceTree = "<group>"; };
-		FA1737442FA910CC00581EB4 /* PlantLibraryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantLibraryScreen.swift; sourceTree = "<group>"; };
-		FA1737452FA910CC00581EB4 /* PlantPickDateScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantPickDateScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		CE7115362E6F0AB000BFCB5A /* AppTemplate */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = AppTemplate;
+			sourceTree = "<group>";
+		};
+		CE9DBAB62E9014FA0065A837 /* AppsFlyer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AppsFlyer;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -98,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE5F035A2E90173A004E65F1 /* AppsFlyerLib-Static in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,7 +58,7 @@
 		CE71152B2E6F0AB000BFCB5A = {
 			isa = PBXGroup;
 			children = (
-				FA1737462FA910CC00581EB4 /* SweetFruitGarden */,
+				CE9DBAB62E9014FA0065A837 /* AppsFlyer */,
 				CE7115A52E6F181600BFCB5A /* LaunchScreen.storyboard */,
 				CE7115362E6F0AB000BFCB5A /* AppTemplate */,
 				CE7115352E6F0AB000BFCB5A /* Products */,
@@ -131,49 +82,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FA17372A2FA910CC00581EB4 /* Font */ = {
-			isa = PBXGroup;
-			children = (
-				FA1737292FA910CC00581EB4 /* FredokaOne-Regular.ttf */,
-			);
-			path = Font;
-			sourceTree = "<group>";
-		};
-		FA1737462FA910CC00581EB4 /* SweetFruitGarden */ = {
-			isa = PBXGroup;
-			children = (
-				FA17372A2FA910CC00581EB4 /* Font */,
-				FA17372B2FA910CC00581EB4 /* AppRootView.swift */,
-				FA17372C2FA910CC00581EB4 /* Assets.xcassets */,
-				FA17372D2FA910CC00581EB4 /* click.mp3 */,
-				FA17372E2FA910CC00581EB4 /* ClickSound.swift */,
-				FA17372F2FA910CC00581EB4 /* ClickSoundButtonStyle.swift */,
-				FA1737302FA910CC00581EB4 /* Color+Hex.swift */,
-				FA1737312FA910CC00581EB4 /* GardenCalendarDateScreen.swift */,
-				FA1737322FA910CC00581EB4 /* GardenCalendarNoEventsScreen.swift */,
-				FA1737332FA910CC00581EB4 /* GardenCalendarScreen.swift */,
-				FA1737342FA910CC00581EB4 /* GardenMapScreen.swift */,
-				FA1737352FA910CC00581EB4 /* GardenModels.swift */,
-				FA1737362FA910CC00581EB4 /* GardenStore.swift */,
-				FA1737372FA910CC00581EB4 /* MainApp.swift */,
-				FA1737382FA910CC00581EB4 /* NativeTextInputs.swift */,
-				FA1737392FA910CC00581EB4 /* NewPlantErrorScreen.swift */,
-				FA17373A2FA910CC00581EB4 /* NewPlantSavedScreen.swift */,
-				FA17373B2FA910CC00581EB4 /* NewPlantScreen.swift */,
-				FA17373C2FA910CC00581EB4 /* NotificationAppDelegate.swift */,
-				FA17373D2FA910CC00581EB4 /* NotificationsScreen.swift */,
-				FA17373E2FA910CC00581EB4 /* OnboardingTabView.swift */,
-				FA17373F2FA910CC00581EB4 /* PlantAddScreen.swift */,
-				FA1737402FA910CC00581EB4 /* PlantDetailPlusScreen.swift */,
-				FA1737412FA910CC00581EB4 /* PlantDetailRemoveScreen.swift */,
-				FA1737422FA910CC00581EB4 /* PlantDetailScreen.swift */,
-				FA1737432FA910CC00581EB4 /* PlantLibraryRootView.swift */,
-				FA1737442FA910CC00581EB4 /* PlantLibraryScreen.swift */,
-				FA1737452FA910CC00581EB4 /* PlantPickDateScreen.swift */,
-			);
-			path = SweetFruitGarden;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -192,9 +100,11 @@
 			);
 			fileSystemSynchronizedGroups = (
 				CE7115362E6F0AB000BFCB5A /* AppTemplate */,
+				CE9DBAB62E9014FA0065A837 /* AppsFlyer */,
 			);
 			name = AppTemplate;
 			packageProductDependencies = (
+				CE5F03592E90173A004E65F1 /* AppsFlyerLib-Static */,
 			);
 			productName = AppTemplate;
 			productReference = CE7115342E6F0AB000BFCB5A /* AppTemplate.app */;
@@ -225,6 +135,7 @@
 			mainGroup = CE71152B2E6F0AB000BFCB5A;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
+				CE5F03582E90173A004E65F1 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = CE7115352E6F0AB000BFCB5A /* Products */;
@@ -241,9 +152,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA1737602FA910CC00581EB4 /* Assets.xcassets in Resources */,
-				FA1737612FA910CC00581EB4 /* click.mp3 in Resources */,
-				FA1737622FA910CC00581EB4 /* FredokaOne-Regular.ttf in Resources */,
 				CE7115A62E6F181600BFCB5A /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,31 +163,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA1737472FA910CC00581EB4 /* NotificationAppDelegate.swift in Sources */,
-				FA1737482FA910CC00581EB4 /* MainApp.swift in Sources */,
-				FA1737492FA910CC00581EB4 /* PlantPickDateScreen.swift in Sources */,
-				FA17374A2FA910CC00581EB4 /* ClickSoundButtonStyle.swift in Sources */,
-				FA17374B2FA910CC00581EB4 /* GardenModels.swift in Sources */,
-				FA17374C2FA910CC00581EB4 /* OnboardingTabView.swift in Sources */,
-				FA17374D2FA910CC00581EB4 /* AppRootView.swift in Sources */,
-				FA17374E2FA910CC00581EB4 /* GardenStore.swift in Sources */,
-				FA17374F2FA910CC00581EB4 /* ClickSound.swift in Sources */,
-				FA1737502FA910CC00581EB4 /* Color+Hex.swift in Sources */,
-				FA1737512FA910CC00581EB4 /* PlantLibraryRootView.swift in Sources */,
-				FA1737522FA910CC00581EB4 /* GardenCalendarDateScreen.swift in Sources */,
-				FA1737532FA910CC00581EB4 /* PlantDetailScreen.swift in Sources */,
-				FA1737542FA910CC00581EB4 /* GardenCalendarNoEventsScreen.swift in Sources */,
-				FA1737552FA910CC00581EB4 /* NativeTextInputs.swift in Sources */,
-				FA1737562FA910CC00581EB4 /* NewPlantScreen.swift in Sources */,
-				FA1737572FA910CC00581EB4 /* PlantDetailRemoveScreen.swift in Sources */,
-				FA1737582FA910CC00581EB4 /* NewPlantSavedScreen.swift in Sources */,
-				FA1737592FA910CC00581EB4 /* PlantLibraryScreen.swift in Sources */,
-				FA17375A2FA910CC00581EB4 /* PlantAddScreen.swift in Sources */,
-				FA17375B2FA910CC00581EB4 /* GardenCalendarScreen.swift in Sources */,
-				FA17375C2FA910CC00581EB4 /* GardenMapScreen.swift in Sources */,
-				FA17375D2FA910CC00581EB4 /* PlantDetailPlusScreen.swift in Sources */,
-				FA17375E2FA910CC00581EB4 /* NewPlantErrorScreen.swift in Sources */,
-				FA17375F2FA910CC00581EB4 /* NotificationsScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,8 +313,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Sweet Fruit Garden";
-				INFOPLIST_KEY_NSCameraUsageDescription = "Allow access to the camera to take photos.";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow access to the photo library to add photos.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera to take photos and videos.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to the photo library to save photos and videos.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Your permission helps us measure which advertising campaigns led to app installs and evaluate marketing performance.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
@@ -442,7 +326,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sweetgarden.fruit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -467,8 +351,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Sweet Fruit Garden";
-				INFOPLIST_KEY_NSCameraUsageDescription = "Allow access to the camera to take photos.";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow access to the photo library to add photos.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera to take photos and videos.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to the photo library to save photos and videos.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Your permission helps us measure which advertising campaigns led to app installs and evaluate marketing performance.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
@@ -479,7 +364,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sweetgarden.fruit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -514,6 +399,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE5F03582E90173A004E65F1 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework-Static";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.17.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE5F03592E90173A004E65F1 /* AppsFlyerLib-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE5F03582E90173A004E65F1 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */;
+			productName = "AppsFlyerLib-Static";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CE71152C2E6F0AB000BFCB5A /* Project object */;
 }
