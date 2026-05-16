@@ -12,10 +12,10 @@ public class WebManager {
         let savedUrl = getSavedUrl()
         if savedUrl == "" {
             do {
-                if let finalURL = try await checkInitURL(url: URL(string: finalUrl)!) {
-                    trySetSavedUrl(finalURL)
-                    provenUrl = finalURL
-                    return finalURL.absoluteString
+                if let _ = try await checkInitURL(url: URL(string: finalUrl)!) {
+                    trySetSavedUrl(URL(string: finalUrl)!)
+                    provenUrl = URL(string: finalUrl)
+                    return finalUrl
                 } else {
                     return ""
                 }
